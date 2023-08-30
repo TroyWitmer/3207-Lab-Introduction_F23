@@ -19,3 +19,9 @@ int main()
 	return(0);
 }
 
+int randchar(){
+	char letter;
+	letter = 'a' + (rand() % 26) ;
+	return letter;
+}
+
